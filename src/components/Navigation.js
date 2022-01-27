@@ -10,22 +10,22 @@ function Navigation(props) {
         <nav>
             <ul className="flex-row">
                 <li className="mx-2">
-                    <a href="#about" onClick={() => setCurrentChoice('about')}>
+                    <a href="#about" onClick={() => setCurrentChoice('About')}>
                         About me
                     </a>
                 </li>
                 <li className="mx-2">
-                    <a href="#portfolio" onClick={() => setCurrentChoice('portfolio')}>
+                    <a href="#portfolio" onClick={() => setCurrentChoice('Portfolio')}>
                         Portfolio
                     </a>
                 </li>
                 <li className="mx-2">
-                    <a href="#contact" onClick={() => setCurrentChoice('contact')}>
+                    <a href="#contact" onClick={() => setCurrentChoice('Contact')}>
                         Contact
                     </a>
                 </li>
                 <li className="mx-2">
-                    <a href="#resume" onClick={() => setCurrentChoice('resume')}>
+                    <a href="#resume" onClick={() => setCurrentChoice('Resume')}>
                         Resume
                     </a>
                 </li>

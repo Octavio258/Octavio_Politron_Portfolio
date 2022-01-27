@@ -4,6 +4,12 @@ import Project from '../components/Project';
 function Portfolio() {
     const[projects] = useState([
         {
+            name: 'The Scroll Down',
+            photo: 'the_scroll_down.JPG',
+            link: 'https://the-scroll-down.herokuapp.com',
+            github: 'https://github.com/Octavio258/the_scroll_down'
+        },
+        {
             name: '',
             photo: '',
             link: '',
